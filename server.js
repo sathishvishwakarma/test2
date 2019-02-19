@@ -12,10 +12,10 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 const pusher = new Pusher({
-  appId: 'YOUR_PUSHER_APP_ID',
-  key: 'YOUR_PUSHER_APP_KEY',
-  secret: 'YOUR_PUSHER_SECRET',
-  cluster: 'YOUR_CLUSTER',
+  app_id : "715937",
+  key: "5ce01ba62feee7d08f63",
+  secret: "fa14249dfd66591fd407",
+  cluster: "eu",
   encrypted: true
 });
 
